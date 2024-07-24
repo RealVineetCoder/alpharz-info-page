@@ -2,10 +2,11 @@ import React from "react";
 import Image from "next/image";
 
 
+
 const HeroSection = () => {
   return (
-    <div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 px-4 lg:px-[10%] py-20 h-auto lg:h-[700px] bg-[#347cce]">
+    <div >
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 px-4 lg:px-[10%] py-20 h-auto lg:h-[700px] bg-custom-gradient">
         <div className="order-2 lg:order-1 flex flex-col justify-center mb-20 lg:mb-0 text-center lg:text-left">
           <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight tracking-tighter">
             where fan love drives brand love

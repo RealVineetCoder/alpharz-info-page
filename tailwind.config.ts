@@ -15,7 +15,9 @@ const config: Config = {
         "hero-pattern": "url('/bkgnd_main-pg_why_bl-pattern_01a.jpg')",
         "phone-pattern": "url('/bkgnd_main-pg_genz_01.jpg')",
         "orange-pattern": "url('/bkgnd_main-pg_advertise_03.jpg')",
+        'custom-gradient': 'linear-gradient(180deg, #011329 0%, #0d3360 100%)'
       },
+      
     },
   },
   plugins: [],
