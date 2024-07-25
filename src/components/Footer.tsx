@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-[#062448] text-white py-6">
+    <footer className="bg-[#062448] text-white py-6 font-Primary">
       <div className="container mx-auto flex flex-col md:flex-row justify-center items-center">
         <div className="flex flex-col md:flex-row items-center">
           <img src="/iabtechlab_verified_seal_rgb-1.png" alt="Compliance Badge" className="h-[200px] mb-4 md:mb-0 md:mr-4" />

@@ -2,7 +2,7 @@ import React from "react";
 
 const Form = () => {
   return (
-    <div className="bg-[#001935]  sm:gap-20 grid sm:grid-cols-12 pt-[96px] pb-[96px] px-4 lg:px-8">
+    <div className="bg-[#001935]  sm:gap-20 grid sm:grid-cols-12 pt-[96px] pb-[96px] px-4 lg:px-8 font-Primary">
       <div className="mb-8 sm:col-start-2 sm:col-span-2 lg:mb-0">
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#00b8ff] mb-6">get in touch</h2>
         <p className="font-light text-[#00b8ff] text-lg sm:text-xl lg:text-2xl">to get started with Tumblr ads, we just need a few deets.</p>

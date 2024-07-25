@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Adversite = () => {
   return (
-    <div className="bg-orange-pattern bg-no-repeat bg-cover min-h-screen flex flex-col items-center px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-24">
+    <div className="bg-orange-pattern bg-no-repeat bg-cover min-h-screen flex flex-col items-center px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-24 font-Primary">
       <div className="flex flex-col items-center text-center">
         <h2 className="text-4xl sm:text-6xl lg:text-8xl font-extrabold text-white">
           advertise on Tumblr
@@ -62,8 +62,8 @@ const Adversite = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full max-w-6xl mt-12 sm:mt-16 lg:mt-24">
-        <div className="relative col-span-1">
+      <div className="grid grid-cols-1 sm:grid-cols-12  gap-4 w-full max-w-6xl mt-12 sm:mt-16 lg:mt-24">
+        <div className="relative sm:col-span-2">
           <Image
             src="/phone-ks-final-1.png"
             alt="Phone"
@@ -71,7 +71,7 @@ const Adversite = () => {
             width={400}
           />
         </div>
-        <div className="relative col-span-1">
+        <div className="relative sm:col-span-2">
           <Image
             src="/phone-2-new-1-1.png"
             alt="Phone"
@@ -79,7 +79,7 @@ const Adversite = () => {
             objectFit="cover"
           />
         </div>
-        <div className="relative col-span-1">
+        <div className="relative sm:col-span-4">
           <Image
             src="/tablet-1.png"
             alt="Tablet"
@@ -87,7 +87,7 @@ const Adversite = () => {
             objectFit="cover"
           />
         </div>
-        <div className="relative col-span-1">
+        <div className="relative sm:col-start-7 sm:col-end-12">
           <Image
             src="/laptop-1.png"
             alt="Laptop"

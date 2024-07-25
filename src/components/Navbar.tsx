@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-      <div className="h-[115px]  bg-[#001935] flex items-center justify-between">
+      <div className="h-[115px]  bg-[#001935] flex items-center justify-between font-Primary">
 
         <Image
           src="/logo_ads-sized-1.png"

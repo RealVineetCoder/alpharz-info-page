@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Genz = () => {
   return (
-    <div className="bg-phone-pattern grid sm:grid-cols-12 bg-no-repeat bg-cover h-screen px-4 md:px-8">
+    <div className="bg-phone-pattern grid sm:grid-cols-12 bg-no-repeat bg-cover h-screen px-4 md:px-8 font-Primary">
       <div className="flex flex-col md:flex-row items-center justify-center sm:col-start-3 sm:col-span-4">
         <div className="flex items-center mb-6 md:mb-0">
           <Image src="/genz_graph-1.png" alt="Gen Z Graph" height={652} width={652} className="w-full md:w-[652px] md:h-[652px]" />

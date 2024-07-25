@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Whyus = () => {
   return (
-    <div className="bg-hero-pattern bg-no-repeat bg-cover  min-h-screen sm:gap-[24px] flex flex-col items-center justify-center py-10 px-[30px] lg:py-20">
+    <div className="bg-hero-pattern bg-no-repeat bg-cover  min-h-screen sm:gap-[24px] flex flex-col items-center justify-center py-10 px-[30px] lg:py-20 font-Primary">
       <h2 className="text-4xl lg:text-6xl font-extrabold text-white text-center mb-10 lg:mb-20">
         why Tumblr?
       </h2>

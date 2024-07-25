@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Creator = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2">
-      <div className="order-2 lg:order-1 grid grid-rows-4 grid-cols-4 gap-1">
+    <div className="grid grid-cols-1 lg:grid-cols-2 font-Primary">
+      <div className="order-2 lg:order-1 grid grid-rows-4 grid-cols-4">
         <div className="col-start-1 col-span-2 relative row-start-1 row-span-2 h-64 md:h-auto">
           <Image
             src="/tumblr_nkkdxkuzdm1u3805so1_500-1.png"
@@ -78,14 +78,14 @@ const Creator = () => {
           />
         </div>
       </div>
-      <div className="bg-[#070f5e] order-1 lg:order-2 p-8 lg:p-32">
+      <div className="bg-[#070f5e] order-1 lg:order-2 p-8 lg:p-28">
         <h3 className="text-2xl lg:text-4xl font-light text-[#FFFFFF] mb-8 leading-tight">
           the most passionate
           <br />
           brand studio on the internet,
           <br />
           <strong className="text-4xl lg:text-6xl font-extrabold">
-            the Tumblr Creatr Network
+            the Tumblr Creator Network
           </strong>
         </h3>
         <div>
