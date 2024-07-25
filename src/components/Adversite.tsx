@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Adversite = () => {
   return (
-    <div className="bg-orange-pattern min-h-screen flex flex-col items-center px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-24">
+    <div className="bg-orange-pattern bg-no-repeat bg-cover min-h-screen flex flex-col items-center px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-24">
       <div className="flex flex-col items-center text-center">
         <h2 className="text-4xl sm:text-6xl lg:text-8xl font-extrabold text-white">
           advertise on Tumblr

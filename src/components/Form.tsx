@@ -2,12 +2,12 @@ import React from "react";
 
 const Form = () => {
   return (
-    <div className="bg-[#001935] flex flex-col lg:flex-row justify-center pt-[96px] px-4 sm:px-6 lg:px-8">
-      <div className="mb-8 lg:mb-0 lg:w-[25%] lg:ml-[10%]">
+    <div className="bg-[#001935]  sm:gap-20 grid sm:grid-cols-12 pt-[96px] pb-[96px] px-4 lg:px-8">
+      <div className="mb-8 sm:col-start-2 sm:col-span-2 lg:mb-0">
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#00b8ff] mb-6">get in touch</h2>
         <p className="font-light text-[#00b8ff] text-lg sm:text-xl lg:text-2xl">to get started with Tumblr ads, we just need a few deets.</p>
       </div>
-      <div className="w-full  text-[#FFFFFF] flex flex-col lg:w-[30%] lg:mr-[10%] lg:ml-[10%]">
+      <div className="w-full sm:col-start-5  sm:col-span-4 text-[#FFFFFF] flex flex-col">
         <label className="text-sm sm:text-base lg:text-lg font-bold mb-1">First Name</label>
         <input
           type="text"
@@ -77,7 +77,7 @@ const Form = () => {
           Submit
         </button>
       </div>
-      <div className="mt-8 lg:mt-0 lg:ml-8 lg:w-[25%]">
+      <div className="sm:col-span-2 sm:col-start-10 mt-10 sm:mt-0">
         <h3 className="text-lg sm:text-xl lg:text-2xl text-[#FFFFFF] font-bold mb-6">for quick inquiries</h3>
         <a href="mailto:brandlove@tumblr.com" className="text-sm sm:text-base lg:text-lg font-light text-[#FFFFFF]">brandlove@tumblr.com</a>
       </div>
